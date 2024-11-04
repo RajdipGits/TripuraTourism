@@ -35,6 +35,8 @@ body{
     border: none;
     background-color: rgb(255, 91, 31);
     transition: all .2s ease-in-out;
+    cursor: pointer;
+    user-select: none;
 }
 button a{
     font-size: 18px;

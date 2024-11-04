@@ -12,6 +12,8 @@ body{
     align-items: center;
     font-family: sans-serif;
     color: white;
+    text-align: center;
+    font-weight: bolder;
 }
 .heading2{
     padding-top: 15px;
@@ -37,7 +39,7 @@ body{
 button a{
     font-size: 18px;
     text-decoration: none;
-    font-style: bolder;
+    font-weight: bolder;
     color: white;
 }
 button:hover{

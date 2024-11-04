@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(255, 178, 89);
+}
+.heading{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    color: white;
+}
+.heading2{
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    color: white;
+}
+.contianer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.contianer button{
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(255, 91, 31);
+    transition: all .2s ease-in-out;
+}
+button a{
+    font-size: 18px;
+    text-decoration: none;
+    font-style: bolder;
+    color: white;
+}
+button:hover{
+    transform: scale(1.1);
+    color: grey;
+}

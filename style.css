@@ -4,6 +4,9 @@
 }
 body{
     background-color: rgb(255, 178, 89);
+    height: 100vh;
+    width: 100%;
+    position: relative;
 }
 .heading{
     padding: 20px;
@@ -27,6 +30,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     margin-top: 20px;
 }
 .contianer button{
@@ -37,6 +41,7 @@ body{
     transition: all .2s ease-in-out;
     cursor: pointer;
     user-select: none;
+    margin-top: 20px;
 }
 button a{
     font-size: 18px;
@@ -48,4 +53,29 @@ button a{
 button:hover{
     transform: scale(1.1);
     color: grey;
+}
+
+footer{
+    background-color: rgb(255, 161, 54);
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    bottom: 0;
+    border-radius: 10px 0px 0px 10px;
+}
+
+footer .footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.footer a{
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+    cursor: pointer;
+    font-size: 17px;
 }

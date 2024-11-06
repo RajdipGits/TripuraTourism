@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    margin: 20px;
+    line-height: 1.6;
+  }
+  
+  .terms-container {
+    max-width: 800px;
+    margin: auto;
+    background: transparent;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #007b5e;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    color: #00563f;
+    margin-top: 20px;
+  }
+  
+  p, ul {
+    margin-bottom: 15px;
+  }
+  
+  ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  strong {
+    color: #00563f;
+  }
+  

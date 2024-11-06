@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User Data Deletion - Tripura Tourism App</title>
+  <link rel="stylesheet" href="universal.css">
+</head>
+<body>
+  <div class="data-deletion-container">
+    <h1>User Data Deletion Request</h1>
+    <p>Your privacy is important to us. If you would like to delete your account and all associated data from our system, please follow the instructions below.</p>
+
+    <section>
+      <h2>1. Request Data Deletion</h2>
+      <p>If you wish to delete your personal information, please submit the form below. By submitting this request, you agree that all personal data will be permanently removed from our system.</p>
+      
+      <form action="/submit-deletion" method="POST">
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required placeholder="Enter your email address">
+
+        <label for="reason">Reason for Deletion (Optional):</label>
+        <textarea id="reason" name="reason" placeholder="Why do you want to delete your data?"></textarea>
+
+        <button type="submit">Request Data Deletion</button>
+      </form>
+    </section>
+
+    <section>
+      <h2>2. Confirmation</h2>
+      <p>Once your request is submitted, you will receive a confirmation email. After verification, your data will be permanently deleted from our database. This process may take up to 30 days to complete.</p>
+    </section>
+
+    <section>
+      <h2>3. Questions?</h2>
+      <p>If you have any questions or need assistance with your data deletion request, please contact us at:</p>
+      <p><a href="mailto:contact@tripuratourismapp.com">contact@tripuratourismapp.com</a></p>
+    </section>
+  </div>
+</body>
+</html>
